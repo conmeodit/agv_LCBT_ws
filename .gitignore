@@ -1,0 +1,35 @@
+# ROS 2 / colcon build products
+build/
+install/
+log/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+
+# IDE and editor state
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Local environment and temporary files
+.env
+.env.*
+*.log
+*.tmp
+
